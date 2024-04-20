@@ -1,3 +1,44 @@
+# React-Router-DOM
+
+Step 1. npm install react-router-dom.
+
+Step 2. Need to write this line in App.js file
+```
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
+
+<BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Login />}>
+        </Route>
+      </Routes>
+</BrowserRouter>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Packages Used in entire project
+1. npm install react-router-dom
+2. npm install styled-components
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
